@@ -1,0 +1,62 @@
+Parte-01-Terminal
+#################
+
+/Users > marcellochuahy > Developer > Mentoria-iOS > Episodio-01 > Parte-01-Terminal > Receitas > Lanchinhos
+/Users > marcellochuahy > Developer > Mentoria-iOS > Episodio-01 > Parte-01-Terminal > Receitas > Sucos
+/Users > marcellochuahy > Developer > Mentoria-iOS > Episodio-01 > Parte-02-GIT
+
+Terminal
+========
+
+pwd            - Exibe o caminho da sua pasta atual
+
+command+K      - Limpa o Terminal
+
+Arraste qualquer pasta para o Terminal para obter o caminho dela (Faça isso com a pasta "Receitas")
+
+ls             - list (lista o conteúdo da pasta)
+ls -1          - list (lista o conteúdo da pasta com alinhamento vertical)
+
+cd             - Change Directory para Home (representado por '~')
+cd AlgumaPasta - Change Directory para AlgumaPasta (use a tecla tab para autocompletar)
+cd ..          - Change Directory para um nível acima
+cd ../..       - Change Directory para dois níveis acima
+
+copy'n'paste funciona no Terminal :)
+
+setaParaCima   - Reescreve os últimos comandos
+
+option+MOUSE   - Permite o uso do mouse para posicionamento do cursor de texto
+
+mkdir Sobremesas                - Cria a pasta
+touch pudim-de-leite.md         - Cria o arquivo
+rm -rf Sucos                    - Deleta a pasta (rm) e seu conteúdo (r) sem pedir confirmação (f)
+rm pudim-de-leite.md            - Deleta o arquivo
+cp pudim-de-leite.md Sobremesas - Copia o arquivo para a pasta Sobremesas
+mv pudim-de-leite.md Sobremesas - Move o arquivo para a pasta Sobremesas
+
+
+VIM
+---
+
+vim algumArquivo - Abre "algumArquivo" no editor de texto VIM
+i                - Entra no Insert Mode (Escrever apenas "# Pudim de Leite Condensado")
+esc              - Sai do Insert Mode
+:wq              - salva(write) e sai(quit) do editor VIM
+ 
+cp -r ../Sobremesas ../../../Parte2-GIT 
+
+
+Parte-02-GIT
+#################
+
+
+
+
+
+
+
+
+
+
+
