@@ -1,0 +1,74 @@
+Parte-02-GIT
+#################
+
+Arraste a pasta Sobremesas para o Terminal:
+
+/Users > marcellochuahy > Developer > Mentoria-iOS > Episodio-01 > Parte-02-Git > Sobremesas
+
+Terminal
+========
+
+1. VERSIONAMENTO SEM GIT
+
+  cp pudim-de-leite.md pudim-de-leite-novo.md
+  cp pudim-de-leite.md pudim-de-leite-final.md
+  cp pudim-de-leite.md pudim-de-leite-final-de-verdade.md
+
+  rm pudim-de-leite-final-de-verdade.md pudim-de-leite-final.md pudim-de-leite-novo.md
+
+2. VERSIONAMENTO COM GIT
+
+git --version
+
+git init
+
+Mostrar a pasta invisível .git (shift + command + .)
+
+Entrar na pasta .git e mostrar o HEAD
+
+git status
+
+ESCREVER MAS NÃO EXECUTAR:
+git add . && git commit -m "Initial commit" ( vamos ver o que esses comandos ADD e COMMIT fazem)
+Mostar imagem imagem003-WD_Stage_HEAD
+
+Comentar sobre o arquivo .DS_Store
+
+vim .gitignore (.DS_Store)
+
+Comentar sobre 
+API Keys Passwords Pasta Pods (Quando a gente usa CocoaPods)
+
+Mostrar o arquivo index e HEAD após:
+git add .
+git commit -m "Initial commit"
+
+Vamos alterar o arquivo pudim-de-leite.md, mas agora vamos usar um outro editor, ao invés do VIM:
+open -a Xcode pudim-de-leite.md
+
+Usar command+0 no Xcode
+
+git add .              
+git commit -m "Add 'Ingredients' subtitle"
+git log
+q
+git show <commit>
+
+
+REPOSITÓRIO LOCAL E REMOTE
+
+git branch -a 
+git remote add origin git@github.com:marcellochuahy/Mentoria.git
+git remote -v
+git push
+
+git push --set-upstream origin master
+
+CLONE
+~ /Users/marcellochuahy/Developer/Mentoria-iOS/Episodio-01/Parte2-GIT/Desenvolvedor_1
+~ /Users/marcellochuahy/Developer/Mentoria-iOS/Episodio-01/Parte2-GIT/Desenvolvedor_2
+
+GIT FLOW
+
+
+BRANCHES
